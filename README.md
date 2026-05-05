@@ -1,21 +1,21 @@
-# 📒 Simple Note App (Flutter)
+# Simple Note App (Flutter)
 
 Ứng dụng ghi chú đơn giản được xây dựng bằng Flutter.
 
 ---
 
-## 🚀 Chức năng chính
+## Chức năng chính
 
-- ✅ Thêm ghi chú (Title + Content)
-- ✅ Hiển thị danh sách ghi chú
-- ✅ Sửa ghi chú
-- ✅ Xóa ghi chú (có xác nhận)
-- ✅ Lưu dữ liệu cục bộ bằng SQLite (Sqflite)
-- ✅ Hiển thị thời gian cập nhật
+- Thêm ghi chú (Title + Content)
+- Hiển thị danh sách ghi chú
+- Sửa ghi chú
+- Xóa ghi chú (có xác nhận)
+- Lưu dữ liệu cục bộ bằng SQLite (Sqflite)
+- Hiển thị thời gian cập nhật
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## Công nghệ sử dụng
 
 - Flutter
 - Sqflite (SQLite local database)
@@ -25,7 +25,7 @@
 
 ---
 
-## 📂 Cấu trúc project
+## Cấu trúc project
 
 
 lib/
@@ -45,28 +45,19 @@ lib/
 
 ---
 
-## 📸 Demo ứng dụng
+## Demo ứng dụng
 
-### 🏠 Màn hình chính
+### Màn hình chính
 ![Home](0.png)
 
-### ➕ Thêm ghi chú
+### Thêm ghi chú
 ![Add](1.png)
 
-### ✏️ Nhập nội dung
+### Nhập nội dung
 ![Edit](2.png)
 
-### 📋 Danh sách ghi chú
+### Danh sách ghi chú
 ![List](3.png)
 
 ---
 
-## ⚙️ Cách chạy project
-
-```bash
-flutter pub get
-flutter run
-📌 Ghi chú
-Dữ liệu được lưu offline (SQLite)
-Không cần internet
-Không dùng Firebase hay API
